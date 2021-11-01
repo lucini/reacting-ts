@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Primeiro from './components/Primeiro'
+import ComParametro from './components/ComParametro'
+
 function App() {
   return (
     <div className="App">
@@ -16,8 +19,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+
         </a>
+        <Primeiro></Primeiro>
+        <ComParametro titulo="Alguma coisa"></ComParametro>
+        <ComParametro titulo="Outra instância"></ComParametro>
       </header>
     </div>
   );
